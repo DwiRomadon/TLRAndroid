@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pesan"
+            android:icon="@drawable/ic_kirim_pesan_24dp"
+            android:title="Kirim Informasi"
+            tools:ignore="HardcodedText" />
+    </group>
+    <item android:title="Apps"
+        tools:ignore="HardcodedText">
+        <menu>
+            <item
+                android:id="@+id/nav_user"
+                android:icon="@drawable/ic_person_user_24dp"
+                android:title="LogOut" />
+        </menu>
+    </item>
+
+</menu>
